@@ -1,0 +1,65 @@
+:root {
+	/*  Primary  */
+ --rojo: hsl(0, 78%, 62%);
+ --cian: hsl(180, 62%, 55%);
+ --naranja: hsl(34, 97%, 64%);
+ --azul: hsl(212, 86%, 64%);
+
+	/*  Neutral  */
+
+ --darkBlue: hsl(234, 12%, 34%);
+ --grey-blue: hsl(229, 6%, 66%);
+ --light-grey: hsl(0, 1%. 98%);
+}
+
+
+.cards {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height: 55vh;
+	position: relative;
+}
+
+.feature {
+	background-color: whitesmoke;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 3px 11px 22px -1px rgba(0,0,0,0.75);
+	position: absolute;
+	width: 300px;
+	height: 200px;	
+}	
+
+.feature h2, p {
+  margin: 15px;
+}
+
+.card-sup {
+	border-top: 5px solid var(--cian);
+	margin-left: 180px;
+}
+
+.card-calc {
+	border-top: 5px solid var(--azul);
+	align-self: flex-end;
+	margin-left: -180px;
+}
+
+.card-tb {
+  border-top: 5px solid var(--rojo);
+  position: static;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.card-karma {
+	border-top: 5px solid var(--naranja);
+	position: static;
+	align-self: center;
+}
+
+svg {
+	margin-left: 200px;
+}

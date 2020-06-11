@@ -1,0 +1,30 @@
+body {
+  font-size: 15px;
+  font-family: Poppins, sans-serif;
+}
+
+.header {
+	display:flex;
+  	flex-direction: column;
+  	align-items: center;
+}
+
+.title {
+	font-weight: 600;
+	margin-top: 50px;
+	line-height: 2px;
+}
+
+.subtitle {
+	font-weight: 400;
+}
+
+.pt {
+	font-weight: 200;
+	line-height: 2px;
+}
+
+.feature {
+	font-weight: 400;
+}
+
